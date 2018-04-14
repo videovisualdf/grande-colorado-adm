@@ -1,0 +1,68 @@
+{
+  "name": "Empresa",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "endereco": {
+      "type": "string",
+      "required": true
+    },
+    "telefone": {
+      "type": "string",
+      "required": true
+    },
+    "site": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "categoria": {
+      "type": "hasOne",
+      "model": "Categoria",
+      "foreignKey": "categoriaId"
+    },
+    "subcategoria": {
+      "type": "hasOne",
+      "model": "Subcategoria",
+      "foreignKey": "subcategoriaId"
+    }
+  },
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
+    },
+    {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW"
+    },
+    {
+      "accessType": "WRITE",
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW"
+    }
+  ],
+  "methods": {}
+}

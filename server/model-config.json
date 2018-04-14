@@ -34,5 +34,21 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Usuario": {
+    "dataSource": "mongodb_ds",
+    "public": true
+  },
+  "Categoria": {
+    "dataSource": "mongodb_ds",
+    "public": true
+  },
+  "Subcategoria": {
+    "dataSource": "mongodb_ds",
+    "public": true
+  },
+  "Empresa": {
+    "dataSource": "mongodb_ds",
+    "public": true
   }
 }
