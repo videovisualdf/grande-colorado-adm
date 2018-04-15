@@ -6,7 +6,7 @@
   "mongodb_ds": {
     "host": "ds155315.mlab.com",
     "port": 55315,
-    "url": "ds155315.mlab.com:55315/heroku_70tz7xfz -u administrador -p pr3gu30b3m",
+    "url": "mongodb://administrador:pr3gu30b3m@ds155315.mlab.com:55315/heroku_70tz7xfz",
     "database": "heroku_70tz7xfz",
     "password": "pr3gu30b3m",
     "name": "mongodb_ds",
