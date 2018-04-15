@@ -4,13 +4,13 @@
     "connector": "memory"
   },
   "mongodb_ds": {
-    "host": "localhost",
-    "port": 27017,
-    "url": "mongodb://localhost:27017/grande-colorado-db",
-    "database": "grande-colorado-db",
-    "password": "",
+    "host": "ds155315.mlab.com",
+    "port": 55315,
+    "url": "ds155315.mlab.com:55315/heroku_70tz7xfz -u administrador -p pr3gu30b3m",
+    "database": "heroku_70tz7xfz",
+    "password": "pr3gu30b3m",
     "name": "mongodb_ds",
-    "user": "",
+    "user": "administrador",
     "connector": "mongodb"
   }
 }
