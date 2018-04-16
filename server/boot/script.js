@@ -38,5 +38,5 @@ module.exports = function (app) {
   });
 
 };
-
+//MONGODB_URI : mongodb://heroku_70tz7xfz:3r7212b8fr2klejtntqiqbdvbt@ds155315.mlab.com:55315/heroku_70tz7xfz
 //{"username":"administrador","password":"pr3gu30b3m"}
