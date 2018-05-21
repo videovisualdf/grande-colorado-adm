@@ -9,6 +9,9 @@
     "nome": {
       "type": "string",
       "required": true
+    },
+    "icone": {
+      "type": "string"
     }
   },
   "validations": [],
