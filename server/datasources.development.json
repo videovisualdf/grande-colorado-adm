@@ -1,0 +1,17 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongodb_ds": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://localhost:27017/grande-colorado-db",
+    "database": "grande-colorado-db",
+    "password": "",
+    "name": "mongodb_ds",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
+
