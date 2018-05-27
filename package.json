@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "server/server.js",
   "engines": {
-    "node": ">=4"
+    "node": "6.14.1",
+    "npm": "3.10.10"
   },
   "scripts": {
     "lint": "eslint .",
