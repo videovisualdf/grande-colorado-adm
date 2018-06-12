@@ -50,5 +50,9 @@
   "Empresa": {
     "dataSource": "mongodb_ds",
     "public": true
+  },
+  "CategoriasEmpresa": {
+    "dataSource": "mongodb_ds",
+    "public": true
   }
 }

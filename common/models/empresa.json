@@ -38,19 +38,18 @@
     },
     "descricao": {
       "type": "string"
+    },
+    "ativo": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
   "relations": {
-    "categoria": {
-      "type": "belongsTo",
-      "model": "Categoria",
-      "foreignKey": "categoriaId"
-    },
-    "subcategoria": {
-      "type": "belongsTo",
-      "model": "Subcategoria",
-      "foreignKey": "subcategoriaId"
+    "categoriasempresa": {
+      "type": "hasMany",
+      "model": "CategoriasEmpresa",
+      "foreignKey": "empresaId"
     }
   },
   "acls": [

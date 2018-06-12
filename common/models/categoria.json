@@ -21,9 +21,9 @@
       "model": "Subcategoria",
       "foreignKey": "categoriaId"
     },
-    "empresas": {
+    "categoriasempresa": {
       "type": "hasMany",
-      "model": "Empresa",
+      "model": "CategoriasEmpresa",
       "foreignKey": "categoriaId"
     }
   },

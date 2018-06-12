@@ -1,26 +1,31 @@
 {
-  "name": "Subcategoria",
+  "name": "CategoriasEmpresa",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "nome": {
+    "destaque": {
       "type": "string",
       "required": true
     }
   },
   "validations": [],
   "relations": {
+    "empresa": {
+      "type": "belongsTo",
+      "model": "Empresa",
+      "foreignKey": "empresaId"
+    },
     "categoria": {
       "type": "belongsTo",
       "model": "Categoria",
       "foreignKey": "categoriaId"
     },
-    "categoriasempresa": {
-      "type": "hasMany",
-      "model": "CategoriasEmpresa",
+    "subcategoria": {
+      "type": "belongsTo",
+      "model": "Subcategoria",
       "foreignKey": "subcategoriaId"
     }
   },
