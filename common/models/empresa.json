@@ -18,6 +18,9 @@
       "type": "string",
       "required": true
     },
+    "celular": {
+      "type": "string"
+    },
     "site": {
       "type": "string"
     },
