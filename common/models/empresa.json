@@ -45,6 +45,10 @@
     "ativo": {
       "type": "string",
       "required": true
+    },
+    "regiao": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
