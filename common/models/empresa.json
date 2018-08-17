@@ -49,6 +49,10 @@
     "regiao": {
       "type": "string",
       "required": true
+    },
+    "coordenada": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
